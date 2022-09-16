@@ -33,7 +33,10 @@ p{
     font-weight: 300;
 }
 
-.form{
+.lnkFormulario{
 
     color: rgb(172, 18, 18);
+}
+img{
+    width: 100%;
 }
