@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <script type="text/javascript" src="func.js"></script>
+    <style type="text/css">
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+
+        }
+        .container input{
+            font-size: large;
+            width: 70vh;
+          
+          
+        }
+        .box-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h2>Ejercicio 1</h2>
+    <h4>Seleccione un color de fondo</h4>
+    <div class="box-container" id="Ejercicio1">
+        
+        <div class="box" style="background-color: rgb(47, 47, 107);" id="box1" onclick="cambiaColor('rgb(47, 47, 107)')"></div>
+        <div class="box" style="background-color: rgb(102, 102, 102);" id="box2" onclick="cambiaColor('rgb(102, 102, 102)')"></div>
+        <div class="box" style="background-color: rgb(34, 139, 102);" id="box3" onclick="cambiaColor('rgb(34, 139, 102)')"></div>
+    </div>   
+    <h2>Ejercicio 2</h2>
+    <h4>contador de caracteres</h4>
+    <div class="container" id="Ejercicio1">
+        <div>
+            <input id="input2" type="text" oninput="palabraCount()">
+            <p id="cantidadPal">Cantidad de caracteres: 0</p>
+        </div>
+
+    </div>
+    <h2>Ejercicio 3</h2>
+    <h4>Alumnos aprobados</h4>
+    <div class="container" id="Ejercicio1">
+
+        <div>
+            <button style="width: 100px;height: 30px;" onclick="examCheck()">Verificar Notas</button>
+        </div>
+
+    </div>    
+</body>
+</html>
