@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+{{#if conocido}}
+<p>Se ha logueado como: {{nombre}} </p>
+<a href="/salir">Desconectarse</a>
+{{/if}}
+
+{{#unless conocido}}
+<p>Por favor introduzca su nombre</p>
+<form action="/ingresar" method="post">
+    <input type='text' name='nombre'>
+    <button>ingresar</button>
+</form>
+{{/unless}}

@@ -59,36 +59,13 @@ a{
 
 /* Institucional  */
 
-.card-title{
-    color: #fef0e5;
-}
-
-.card-text{
-    font-size: small;
-}
-
-.institucional{
-    padding-left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 /* Contacto */
 
 .contacto{
     width: 30%;
 }
 
-/* Home */
 
-#home{
-    margin-left: auto;
-    width: 80%;
-}
-
-.carousel-indicators{
-    background-color: transparent;
-}
 
 
 /* Pie de Pagina */
